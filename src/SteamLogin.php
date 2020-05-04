@@ -1,7 +1,7 @@
 <?php
 namespace vemarun\lib;
-require_once("../lib/Math/BigInteger.php");
-require_once("../lib/Crypt/RSA.php");
+require_once("lib/Math/BigInteger.php");
+require_once("lib/Crypt/RSA.php");
 
 class SteamLogin {
 	
