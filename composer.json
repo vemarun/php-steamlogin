@@ -1,6 +1,7 @@
 {
     "name": "vemarun/php-steamlogin",
     "type": "library",
+    "description": "Script to obtain steamid, cookies and sessionid.",
     "license": "MIT",
     "autoload": {
         "psr-4": {"vemarun\\lib\\": "/src"}
