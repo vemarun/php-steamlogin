@@ -2,7 +2,9 @@
 Script to obtain steamid, cookies and sessionid.
 Forked from: https://github.com/SzymonLisowiec/php-steamlogin
 
+```php
 composer require vemarun/php-steamlogin
+```
 
 ## Example
 ```php
