@@ -1,5 +1,5 @@
 <?php
-defined('php-steamlogin') or die('null');
+namespace vemarun\SteamLogin;
 require_once("lib/Math/BigInteger.php");
 require_once("lib/Crypt/RSA.php");
 

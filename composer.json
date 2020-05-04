@@ -1,5 +1,9 @@
 {
     "name": "vemarun/php-steamlogin",
     "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"vemarun\\SteamLogin\\": "/"}
+    },
     "require": {}
 }
