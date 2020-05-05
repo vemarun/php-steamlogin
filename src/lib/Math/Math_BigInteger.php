@@ -1,5 +1,4 @@
 <?php
-namespace vemarun\login\lib;
 /**
  * Pure-PHP arbitrary precision integer arithmetic library.
  *
