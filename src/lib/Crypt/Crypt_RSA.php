@@ -1,4 +1,9 @@
 <?php
+
+namespace vemarun\login\lib\Crypt;
+
+use vemarun\login\lib\Math\Math_BigInteger;
+use vemarun\login\lib\Crypt\Crypt_Hash;
 /**
  * Pure-PHP PKCS#1 (v2.1) compliant implementation of RSA.
  *
@@ -80,9 +85,9 @@ if (!function_exists('crypt_random_string')) {
 /**
  * Include Crypt_Hash
  */
-if (!class_exists('Crypt_Hash')) {
-    include_once 'Hash.php';
-}
+// if (!class_exists('Crypt_Hash')) {
+//     include_once 'Hash.php';
+// }
 
 /**#@+
  * @access public
@@ -492,9 +497,9 @@ class Crypt_RSA
      */
     public function __construct()
     {
-        if (!class_exists('Math_BigInteger')) {
-            include_once 'Math/BigInteger.php';
-        }
+        // if (!class_exists('Math_BigInteger')) {
+        //     include_once 'Math/Math_BigInteger.php';
+        // }
 
         $this->configFile = CRYPT_RSA_OPENSSL_CONFIG;
 
