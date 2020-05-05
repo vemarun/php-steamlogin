@@ -4,7 +4,7 @@
     "description": "Script to obtain steamid, cookies and sessionid.",
     "license": "MIT",
     "autoload": {
-        "psr-4": {"vemarun\\lib\\": "/src"}
+        "psr-4": {"vemarun\\login\\": "/src"}
     },
     "require": {}
 }

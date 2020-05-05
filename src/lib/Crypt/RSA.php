@@ -1,5 +1,5 @@
 <?php
-
+namespace vemarun\login\lib;
 /**
  * Pure-PHP PKCS#1 (v2.1) compliant implementation of RSA.
  *
@@ -491,7 +491,7 @@ class Crypt_RSA
      * @return Crypt_RSA
      * @access public
      */
-    function Crypt_RSA()
+    public function __construct()
     {
         if (!class_exists('Math_BigInteger')) {
             include_once 'Math/BigInteger.php';

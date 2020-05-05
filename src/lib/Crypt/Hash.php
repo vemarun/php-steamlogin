@@ -1,5 +1,5 @@
 <?php
-
+namespace vemarun\login\lib;
 /**
  * Pure-PHP implementations of keyed-hash message authentication codes (HMACs) and various cryptographic hashing functions.
  *
@@ -151,7 +151,7 @@ class Crypt_Hash
      * @return Crypt_Hash
      * @access public
      */
-    function Crypt_Hash($hash = 'sha1')
+    public function __construct($hash = 'sha1')
     {
         if (!defined('CRYPT_HASH_MODE')) {
             switch (true) {
