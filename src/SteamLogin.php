@@ -79,7 +79,7 @@ class SteamLogin {
 	}
 	
 	public function view($url){
-		return $this->request('POST', $url);
+		return $this->request('GET', $url);
 	}
 	
 	private function request($type, $url, $data=array()){
